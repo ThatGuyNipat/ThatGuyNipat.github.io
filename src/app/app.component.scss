@@ -1,0 +1,28 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #8c8c8c;
+    background: radial-gradient(circle at 50% 80%,
+            rgb(83, 83, 83) 0%,
+            rgb(2, 0, 24) 60%,
+            rgba(0, 0, 0, 1) 100%);
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+}

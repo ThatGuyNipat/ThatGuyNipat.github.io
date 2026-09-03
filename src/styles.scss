@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+
 /* Global styles and theme tokens */
 :root{
-    --bg-1: #071028;
-    --bg-2: #071827;
     --text: #e6eef8;
 }
 
-html, body { height:100%; }
-body {
-    margin:0; padding:0; min-height:100%;
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    background: linear-gradient(180deg, var(--bg-1), var(--bg-2));
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #8c8c8c;
+    background: radial-gradient(circle at 50% 80%,
+            rgb(83, 83, 83) 0%,
+            rgb(2, 0, 24) 60%,
+            rgba(0, 0, 0, 1) 100%);
     color: var(--text);
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
 }
-
-main { display:block; }
